@@ -1,0 +1,112 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("./assets/currency-bg.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+.result{
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+p {
+    background-color: white;
+    width: 300px;
+    border-radius: 6px;
+    border-style:none;
+    box-shadow: none;
+}
+
+.empty{
+    height: 300px;
+}
+
+#swap{
+    background-color: white;
+    border-style:none;
+    border-radius: 6px;
+    box-shadow: none;
+    transition-duration: 0.4s;
+}
+
+#swap:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.2)
+}
+
+#swap:active{;
+    transform:scale(0.9);
+}
+
+
+#btn-convert{
+    background-color: white;
+    border-radius: 6px;
+    border-style:none;
+    box-shadow: none;
+    transition-duration: 0.4s;
+}
+
+#btn-convert:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.2)
+}
+
+#btn-convert:active{
+    transform:scale(0.9);
+}
+
+input{
+    border-radius: 6px;
+    border-style:none;
+    box-shadow: none;
+    width: 80px;
+}
+#primary , #secondary{
+    border-style:none;
+    box-shadow: none;
+    border-radius: 6px;
+}

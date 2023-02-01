@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6ff24e6d8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Currency Exchange Calculator
+        </h1>
+      </div>
+      <div class="empty"></div>
+      <div>
+        <form>
+            <input id="amount" type="number" value="1" />
+            <select id="primary" class="input" name="curr1"></select>
+            <button id="swap" type="button" onClick="swapByOptionValue('select[name=\'curr1\']', 'select[name=\'curr2\']')"><i class="fa-solid fa-right-left"></i></button>
+            <select id="secondary" class="input" name="curr2"></select>   
+            <button id="btn-convert" type="button"><i class="fa-solid fa-check"></i></button>
+          </form>
+          <div class="result"><p id="result" style="display:none;">
+            <span id="txt-primary"></span>
+            <span id="txt-secondary"></span>
+          </p></div>
+      </div>
+      <script src="./main.js"></script>
+</body>
+</html>
